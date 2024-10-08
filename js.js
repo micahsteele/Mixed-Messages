@@ -6,5 +6,5 @@ const luck = ['fortune', 'luck', 'aura', 'vibes'];
 function displayText() {
     let message = `You are a ${starSign[Math.floor(Math.random() * starSign.length)]}, you will have 
     ${fortune[Math.floor(Math.random() * fortune.length)]} ${luck[Math.floor(Math.random() * luck.length)]}`;
-    return console.log(message)
+    return alert(message)
 };
